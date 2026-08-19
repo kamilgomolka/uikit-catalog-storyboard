@@ -436,7 +436,7 @@
 		26FA7DD92811336000406B85 /* SimpleTabbarChild3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTabbarChild3.swift; sourceTree = "<group>"; };
 		26FA7DDB2811336400406B85 /* SimpleTabbarChild4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTabbarChild4.swift; sourceTree = "<group>"; };
 		26FA7DE0281139C900406B85 /* ManyItemsTabbar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ManyItemsTabbar.storyboard; sourceTree = "<group>"; };
-		8050A3CC275A329D00CE2BD4 /* UIKit-Storyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit-Storyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8050A3CC275A329D00CE2BD4 /* AppleUICatalogUIKitStoryboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleUICatalogUIKitStoryboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8050A3CF275A329D00CE2BD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8050A3D1275A329D00CE2BD4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8050A3D8275A329E00CE2BD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -1679,7 +1679,7 @@
 		8050A3CD275A329D00CE2BD4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8050A3CC275A329D00CE2BD4 /* UIKit-Storyboard.app */,
+				8050A3CC275A329D00CE2BD4 /* AppleUICatalogUIKitStoryboard.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1822,9 +1822,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8050A3CB275A329D00CE2BD4 /* UIKit-Storyboard */ = {
+		8050A3CB275A329D00CE2BD4 /* AppleUICatalogUIKitStoryboard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8050A3E0275A329E00CE2BD4 /* Build configuration list for PBXNativeTarget "UIKit-Storyboard" */;
+			buildConfigurationList = 8050A3E0275A329E00CE2BD4 /* Build configuration list for PBXNativeTarget "AppleUICatalogUIKitStoryboard" */;
 			buildPhases = (
 				8050A3C8275A329D00CE2BD4 /* Sources */,
 				8050A3C9275A329D00CE2BD4 /* Frameworks */,
@@ -1834,9 +1834,9 @@
 			);
 			dependencies = (
 			);
-			name = "UIKit-Storyboard";
+			name = AppleUICatalogUIKitStoryboard;
 			productName = "UIKit-Storyboard";
-			productReference = 8050A3CC275A329D00CE2BD4 /* UIKit-Storyboard.app */;
+			productReference = 8050A3CC275A329D00CE2BD4 /* AppleUICatalogUIKitStoryboard.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -1854,7 +1854,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8050A3C7275A329D00CE2BD4 /* Build configuration list for PBXProject "UIKit-Storyboard" */;
+			buildConfigurationList = 8050A3C7275A329D00CE2BD4 /* Build configuration list for PBXProject "AppleUICatalogUIKitStoryboard" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -1867,7 +1867,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8050A3CB275A329D00CE2BD4 /* UIKit-Storyboard */,
+				8050A3CB275A329D00CE2BD4 /* AppleUICatalogUIKitStoryboard */,
 			);
 		};
 /* End PBXProject section */
@@ -2255,6 +2255,7 @@
 				DEVELOPMENT_TEAM = 9G3V3Z24HF;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Supporting files/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "UIKit Storyboard";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = MainMenu;
@@ -2285,6 +2286,7 @@
 				DEVELOPMENT_TEAM = 9G3V3Z24HF;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Supporting files/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "UIKit Storyboard";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = MainMenu;
@@ -2307,7 +2309,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8050A3C7275A329D00CE2BD4 /* Build configuration list for PBXProject "UIKit-Storyboard" */ = {
+		8050A3C7275A329D00CE2BD4 /* Build configuration list for PBXProject "AppleUICatalogUIKitStoryboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8050A3DE275A329E00CE2BD4 /* Debug */,
@@ -2316,7 +2318,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8050A3E0275A329E00CE2BD4 /* Build configuration list for PBXNativeTarget "UIKit-Storyboard" */ = {
+		8050A3E0275A329E00CE2BD4 /* Build configuration list for PBXNativeTarget "AppleUICatalogUIKitStoryboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8050A3E1275A329E00CE2BD4 /* Debug */,
