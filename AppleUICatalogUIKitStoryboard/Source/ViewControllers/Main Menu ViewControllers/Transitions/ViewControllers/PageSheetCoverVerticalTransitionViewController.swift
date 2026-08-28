@@ -12,7 +12,7 @@ class PageSheetCoverVerticalTransitionViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let closeButton = UIBarButtonItem(title: "Close", style: .done, target: self, action: #selector(close))
+        let closeButton = UIBarButtonItem(title: "Close", style: .prominent, target: self, action: #selector(close))
         navigationItem.rightBarButtonItem = closeButton
     }
 

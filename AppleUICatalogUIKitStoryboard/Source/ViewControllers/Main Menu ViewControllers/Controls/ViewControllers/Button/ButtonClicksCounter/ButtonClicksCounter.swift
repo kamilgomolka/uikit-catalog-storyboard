@@ -43,7 +43,7 @@ class ButtonClicksCounter {
         clicks[sender] = (clicks[sender] ?? 0) + 1
         let clicks = clicks[sender] ?? 0
         let title = titles[sender] ?? ""
-        let newTitle = String(format: "%@ (%ld)", title, clicks)
+        let newTitle = "\(title) (\(clicks))"
         sender.setTitle(newTitle, for: .normal)
     }
 }

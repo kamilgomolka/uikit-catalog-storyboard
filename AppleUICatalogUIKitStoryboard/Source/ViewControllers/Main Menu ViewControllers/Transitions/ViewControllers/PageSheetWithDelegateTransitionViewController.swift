@@ -17,7 +17,8 @@ class PageSheetWithDelegateTransitionViewController: UIViewController {
         isModalInPresentation = true
         navigationController?.presentationController?.delegate = self
 
-        let closeButton = UIBarButtonItem(title: "Save", style: .done, target: self, action: #selector(saveAndClose))
+        let closeButton = UIBarButtonItem(
+            title: "Save", style: .prominent, target: self, action: #selector(saveAndClose))
         navigationItem.rightBarButtonItem = closeButton
     }
 

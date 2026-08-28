@@ -47,7 +47,7 @@ class CollectionViewSectionsViewController: UIViewController {
         // Item
         //
         let itemSize = NSCollectionLayoutSize(
-            widthDimension: .fractionalWidth(1.0),
+            widthDimension: .fractionalWidth(1.0 / 3.0),
             heightDimension: .fractionalHeight(1.0))
 
         let item = NSCollectionLayoutItem(layoutSize: itemSize)
@@ -65,7 +65,7 @@ class CollectionViewSectionsViewController: UIViewController {
             widthDimension: .fractionalWidth(1.0),
             heightDimension: .fractionalWidth(1.0 / 3.0))
 
-        let group = NSCollectionLayoutGroup.horizontal(layoutSize: groupSize, subitem: item, count: 3)
+        let group = NSCollectionLayoutGroup.horizontal(layoutSize: groupSize, repeatingSubitem: item, count: 3)
 
         //
         // Section
