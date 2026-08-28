@@ -1,6 +1,6 @@
 //
 //  PickersMenuItem.swift
-//  UIKit-Storyboard
+//  AppleUICatalogUIKitStoryboard
 //
 //  Created by Kamil Gomółka on 22/05/2022.
 //

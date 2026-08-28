@@ -1,6 +1,6 @@
 //
 //  CellStyleSection.swift
-//  UIKit-Storyboard
+//  AppleUICatalogUIKitStoryboard
 //
 //  Created by Kamil Gomółka on 31/01/2022.
 //

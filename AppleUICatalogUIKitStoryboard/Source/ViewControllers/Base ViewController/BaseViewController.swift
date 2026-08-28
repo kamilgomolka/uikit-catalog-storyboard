@@ -1,6 +1,6 @@
 //
 //  BaseViewController.swift
-//  UIKit-Storyboard
+//  AppleUICatalogUIKitStoryboard
 //
 //  Created by Kamil Gomółka on 27/01/2022.
 //

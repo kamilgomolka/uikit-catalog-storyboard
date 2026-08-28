@@ -1,6 +1,6 @@
 //
 //  MockDataLoader.swift
-//  UIKit-Storyboard
+//  AppleUICatalogUIKitStoryboard
 //
 //  Created by Kamil Gomółka on 14/04/2022.
 //

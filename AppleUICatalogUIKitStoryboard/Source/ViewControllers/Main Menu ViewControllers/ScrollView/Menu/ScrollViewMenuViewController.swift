@@ -1,6 +1,6 @@
 //
 //  ScrollViewMenuViewController.swift
-//  UIKit-Storyboard
+//  AppleUICatalogUIKitStoryboard
 //
 //  Created by Kamil Gomółka on 06/12/2021.
 //

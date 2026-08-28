@@ -1,6 +1,6 @@
 //
 //  ButtonImagePlacementViewController.swift
-//  UIKit-Storyboard
+//  AppleUICatalogUIKitStoryboard
 //
 //  Created by Kamil Gomółka on 21/01/2022.
 //

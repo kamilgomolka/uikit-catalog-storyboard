@@ -1,6 +1,6 @@
 //
 //  CollectionViewBadgeViewController.swift
-//  UIKit-Storyboard
+//  AppleUICatalogUIKitStoryboard
 //
 //  Created by Kamil Gomółka on 10/02/2022.
 //

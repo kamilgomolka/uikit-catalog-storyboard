@@ -1,6 +1,6 @@
 //
 //  CellAccessoryTypeViewController.swift
-//  UIKit-Storyboard
+//  AppleUICatalogUIKitStoryboard
 //
 //  Created by Kamil Gomółka on 28/01/2022.
 //

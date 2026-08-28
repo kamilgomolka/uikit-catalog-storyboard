@@ -1,6 +1,6 @@
 //
 //  ControlsMenuItems.swift
-//  UIKit-Storyboard
+//  AppleUICatalogUIKitStoryboard
 //
 //  Created by Kamil Gomółka on 30/04/2022.
 //

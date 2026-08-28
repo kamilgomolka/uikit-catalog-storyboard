@@ -1,4 +1,4 @@
-# UIKit-Storyboard
+# AppleUICatalogUIKitStoryboard
 
 This project presents usage of elements from UIKit Framework.
 
@@ -6,7 +6,7 @@ No 3rd party libraries, no subclassing of UIControls, no big extensions. Just pl
 
 ### This project is written in two versions:
 
-1) [UIKit-Storyboard](https://github.com/kamilgomolka/UIKit-Storyboard) : Views are created in Storybaoards / Xibs.
+1) [AppleUICatalogUIKitStoryboard](https://github.com/kamilgomolka/AppleUICatalogUIKitStoryboard) : Views are created in Storybaoards / Xibs.
 2) [UIKit-Swift](https://github.com/kamilgomolka/UIKit-Swift) : Views are created in code.
 
 Besides the way of creating views, these two projects are more or less the same, although there might be some differences.  

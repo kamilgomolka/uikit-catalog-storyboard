@@ -1,6 +1,6 @@
 //
 //  TransitionsMenuViewController.swift
-//  UIKit-Storyboard
+//  AppleUICatalogUIKitStoryboard
 //
 //  Created by Kamil Gomółka on 08/02/2022.
 //

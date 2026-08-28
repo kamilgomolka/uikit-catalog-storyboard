@@ -1,6 +1,6 @@
 //
 //  TransitionsMenuItem.swift
-//  UIKit-Storyboard
+//  AppleUICatalogUIKitStoryboard
 //
 //  Created by Kamil Gomółka on 20/04/2022.
 //
