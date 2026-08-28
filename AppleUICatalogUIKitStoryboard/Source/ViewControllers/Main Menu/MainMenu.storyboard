@@ -13,7 +13,7 @@
             <objects>
                 <navigationController id="jwJ-IX-P4l" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="t53-WW-lyx">
-                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <rect key="frame" x="0.0" y="96" width="414" height="106"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -24,10 +24,10 @@
             </objects>
             <point key="canvasLocation" x="-1323" y="-8"/>
         </scene>
-        <!--AppleUICatalogUIKitStoryboard-->
+        <!--UIKit Storyboard-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController id="Y6W-OH-hqX" customClass="MainMenuViewController" customModule="UIKit_Storyboard" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Y6W-OH-hqX" customClass="MainMenuViewController" customModule="AppleUICatalogUIKitStoryboard" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -45,7 +45,7 @@
                             <constraint firstItem="jYH-Gk-ARv" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="sHG-0D-Kgl"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="AppleUICatalogUIKitStoryboard" largeTitleDisplayMode="never" id="SMA-wW-I20"/>
+                    <navigationItem key="navigationItem" title="UIKit Storyboard" largeTitleDisplayMode="never" id="SMA-wW-I20"/>
                     <connections>
                         <outlet property="tableViewOutlet" destination="jYH-Gk-ARv" id="kNE-ki-sGs"/>
                     </connections>
