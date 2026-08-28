@@ -25,6 +25,9 @@ class SimpleTableViewController: UIViewController, UITableViewDataSource, UITabl
         tableView.delegate = self
         tableView.dataSource = self
         tableView.register(UINib(nibName: cellNibName, bundle: nil), forCellReuseIdentifier: cellNibName)
+        tableView.tableHeaderView = UIView(
+            frame: CGRect(x: 0, y: 0, width: 0, height: CGFloat.leastNormalMagnitude)
+        )
     }
 
     // MARK: - UITableViewDataSource
