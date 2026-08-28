@@ -8,14 +8,14 @@
 import UIKit
 
 class ToolbarMenuViewController: MenuViewController {
-	
-	@IBOutlet weak var tableViewOutlet: UITableView!
-	
-	override var tableView: UITableView {
-		return tableViewOutlet
-	}
-	
-	override func createItems() -> [MenuItem] {
-		return ToolbarMenuItems.all
-	}
+
+    @IBOutlet weak var tableViewOutlet: UITableView!
+
+    override var tableView: UITableView {
+        tableViewOutlet
+    }
+
+    override func createItems() -> [MenuItem] {
+        ToolbarMenuItems.all
+    }
 }

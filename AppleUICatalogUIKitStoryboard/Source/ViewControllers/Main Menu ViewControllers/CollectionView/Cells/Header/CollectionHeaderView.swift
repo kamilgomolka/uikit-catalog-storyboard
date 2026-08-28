@@ -8,10 +8,10 @@
 import UIKit
 
 class CollectionHeaderView: UICollectionReusableView {
-    
+
     // MARK: - Properties
-    
+
     static let nibName = "CollectionHeaderView"
-    
+
     @IBOutlet weak var titleLabel: UILabel!
 }

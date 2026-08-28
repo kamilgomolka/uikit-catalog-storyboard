@@ -17,7 +17,7 @@ enum CellSeparatorInsetsItem: String, CaseIterable {
     case customNonZero1
     case customNonZero2
     case customNonZero3
-    
+
     var cellIdentifier: String {
         switch self {
         case .automatic1:
@@ -40,7 +40,7 @@ enum CellSeparatorInsetsItem: String, CaseIterable {
             return "customNonZero"
         }
     }
-    
+
     var text: String {
         switch self {
         case .automatic1:

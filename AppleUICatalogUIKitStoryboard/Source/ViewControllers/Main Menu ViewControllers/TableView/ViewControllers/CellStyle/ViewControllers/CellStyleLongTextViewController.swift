@@ -8,10 +8,10 @@
 import UIKit
 
 class CellStyleLongTextViewController: CellStyleBaseViewController {
-    
+
     @IBOutlet weak var tableViewOutlet: UITableView!
-    
+
     override var tableView: UITableView {
-        return tableViewOutlet
+        tableViewOutlet
     }
 }

@@ -8,10 +8,10 @@
 import UIKit
 
 class SheetMediumTransitionViewController: UIViewController {
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         if let sheet = presentationController as? UISheetPresentationController {
             sheet.detents = [.medium()]
         }

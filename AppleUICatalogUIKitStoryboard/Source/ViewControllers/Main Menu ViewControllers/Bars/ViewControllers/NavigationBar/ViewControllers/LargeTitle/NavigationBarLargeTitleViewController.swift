@@ -8,11 +8,10 @@
 import UIKit
 
 class NavigationBarLargeTitleViewController: BaseNavigationBarViewController {
-	
-	@IBOutlet weak var tableViewOutlet: UITableView!
-	
-	override var tableView: UITableView {
-		return tableViewOutlet
-	}
-}
 
+    @IBOutlet weak var tableViewOutlet: UITableView!
+
+    override var tableView: UITableView {
+        tableViewOutlet
+    }
+}

@@ -8,14 +8,14 @@
 import UIKit
 
 class NavigationBarMenuViewController: MenuViewController {
-	
-	@IBOutlet weak var tableViewOutlet: UITableView!
-	
-	override var tableView: UITableView {
-		return tableViewOutlet
-	}
-	
-	override func createItems() -> [MenuItem] {
-		return NavigationBarMenuItems.all
-	}
+
+    @IBOutlet weak var tableViewOutlet: UITableView!
+
+    override var tableView: UITableView {
+        tableViewOutlet
+    }
+
+    override func createItems() -> [MenuItem] {
+        NavigationBarMenuItems.all
+    }
 }

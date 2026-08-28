@@ -8,20 +8,20 @@
 import UIKit
 
 class NavigationBarButtonsViewController: BaseNavigationBarViewController {
-	
-	@IBOutlet weak var tableViewOutlet: UITableView!
-	
-	override var tableView: UITableView {
-		return tableViewOutlet
-	}
-	
-	// MARK: - Actions
-	
-	@IBAction func cancelButtonClicked() {
-		print("Cancel button clicked")
-	}
-	
-	@IBAction func doneButtonClicked() {
-		print("Done button clicked")
-	}
+
+    @IBOutlet weak var tableViewOutlet: UITableView!
+
+    override var tableView: UITableView {
+        tableViewOutlet
+    }
+
+    // MARK: - Actions
+
+    @IBAction func cancelButtonClicked() {
+        print("Cancel button clicked")
+    }
+
+    @IBAction func doneButtonClicked() {
+        print("Done button clicked")
+    }
 }

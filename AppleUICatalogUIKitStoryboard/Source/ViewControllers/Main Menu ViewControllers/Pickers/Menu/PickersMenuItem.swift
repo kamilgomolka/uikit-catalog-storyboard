@@ -8,17 +8,17 @@
 import Foundation
 
 struct PickersMenuItem {
-	
-	static var all: [MenuItem] {
-		return [
-			MenuItem(
-				name: "Date picker",
-				storyboardName: "DatePicker"
-			),
-//			MenuItem(
-//				name: "PickerView",
-//				storyboardName: "PickerViewMenu"
-//			)
-		]
-	}
+
+    static var all: [MenuItem] {
+        [
+            MenuItem(
+                name: "Date picker",
+                storyboardName: "DatePicker"
+            )
+            //			MenuItem(
+            //				name: "PickerView",
+            //				storyboardName: "PickerViewMenu"
+            //			)
+        ]
+    }
 }

@@ -8,10 +8,10 @@
 import UIKit
 
 class SwitchViewController: UIViewController {
-	
-	// MARK: - Actions
-	
-	@IBAction func switchValueChanged(_ sender: UISwitch) {
-		print("switchValueChanged. newValue=\(sender.isOn)")
-	}
+
+    // MARK: - Actions
+
+    @IBAction func switchValueChanged(_ sender: UISwitch) {
+        print("switchValueChanged. newValue=\(sender.isOn)")
+    }
 }

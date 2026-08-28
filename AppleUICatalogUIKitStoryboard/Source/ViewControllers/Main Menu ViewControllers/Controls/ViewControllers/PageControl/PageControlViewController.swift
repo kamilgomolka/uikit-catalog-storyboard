@@ -8,17 +8,16 @@
 import UIKit
 
 class PageControlViewController: UIViewController {
-	
-	@IBOutlet weak var prominentPageControl: UIPageControl!
-	
-	override func viewDidLoad() {
-		super.viewDidLoad()
-		
-		prominentPageControl.backgroundStyle = .prominent
-	}
-	
-	@IBAction func pageControlValueChanged(_ sender: UIPageControl) {
-		print("pageControlValueChanged: page=\(sender.currentPage)")
-	}
-}
 
+    @IBOutlet weak var prominentPageControl: UIPageControl!
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        prominentPageControl.backgroundStyle = .prominent
+    }
+
+    @IBAction func pageControlValueChanged(_ sender: UIPageControl) {
+        print("pageControlValueChanged: page=\(sender.currentPage)")
+    }
+}

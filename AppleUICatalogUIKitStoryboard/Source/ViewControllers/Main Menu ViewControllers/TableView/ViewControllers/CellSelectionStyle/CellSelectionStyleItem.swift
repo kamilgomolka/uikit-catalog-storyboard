@@ -11,8 +11,8 @@ enum CellSelectionStyleItem: String, CaseIterable {
     case blue
     case gray
     case `default`
-    
+
     var cellIdentifier: String {
-        return self.rawValue
+        self.rawValue
     }
 }

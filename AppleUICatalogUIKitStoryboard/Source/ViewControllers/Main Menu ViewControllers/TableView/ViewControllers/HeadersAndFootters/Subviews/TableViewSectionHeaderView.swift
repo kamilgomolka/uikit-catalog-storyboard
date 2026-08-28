@@ -8,16 +8,18 @@
 import UIKit
 
 class TableViewSectionHeaderView: UITableViewHeaderFooterView {
-    
+
     @IBOutlet weak var embededContentView: UIView!
     @IBOutlet weak var titleLabel: UILabel!
-    
-    override func awakeFromNib() {
+
+    nonisolated override func awakeFromNib() {
         super.awakeFromNib()
-        
-        embedView()
+
+        MainActor.assumeIsolated {
+            embedView()
+        }
     }
-    
+
     //
     // Currently there is no way
     // to add subviews to UITableViewHeaderFooterView.contentView
@@ -29,10 +31,10 @@ class TableViewSectionHeaderView: UITableViewHeaderFooterView {
         guard let viewToEmbed = self.embededContentView else {
             return
         }
-        
+
         viewToEmbed.removeFromSuperview()
         contentView.addSubview(viewToEmbed)
-        
+
         viewToEmbed.leadingAnchor.constraint(equalTo: contentView.leadingAnchor).isActive = true
         viewToEmbed.trailingAnchor.constraint(equalTo: contentView.trailingAnchor).isActive = true
         viewToEmbed.topAnchor.constraint(equalTo: contentView.topAnchor).isActive = true

@@ -8,14 +8,14 @@
 import UIKit
 
 class ButtonMenuViewController: MenuViewController {
-	
-	@IBOutlet weak var tableViewOutlet: UITableView!
-	
-	override var tableView: UITableView {
-		return tableViewOutlet
-	}
-	
-	override func createItems() -> [MenuItem] {
-		return ButtonMenuItems.all
-	}
+
+    @IBOutlet weak var tableViewOutlet: UITableView!
+
+    override var tableView: UITableView {
+        tableViewOutlet
+    }
+
+    override func createItems() -> [MenuItem] {
+        ButtonMenuItems.all
+    }
 }

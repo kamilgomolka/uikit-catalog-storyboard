@@ -8,25 +8,25 @@
 import Foundation
 
 struct ToolbarMenuItems {
-	
-	static var all: [MenuItem] {
-		return [
-			MenuItem(
-				name: "Simple toolbar",
-				storyboardName: "SimpleToolbar"
-			),
-			MenuItem(
-				name: "Toolbar and TableView",
-				storyboardName: "ToolbarAndTableView"
-			),
-			MenuItem(
-				name: "BarButtonItem - Style",
-				storyboardName: "ToolbarItemStyle"
-			),
-			MenuItem(
-				name: "BarButtonItem - System items",
-				storyboardName: "ToolbarSystemItems"
-			)
-		]
-	}
+
+    static var all: [MenuItem] {
+        [
+            MenuItem(
+                name: "Simple toolbar",
+                storyboardName: "SimpleToolbar"
+            ),
+            MenuItem(
+                name: "Toolbar and TableView",
+                storyboardName: "ToolbarAndTableView"
+            ),
+            MenuItem(
+                name: "BarButtonItem - Style",
+                storyboardName: "ToolbarItemStyle"
+            ),
+            MenuItem(
+                name: "BarButtonItem - System items",
+                storyboardName: "ToolbarSystemItems"
+            ),
+        ]
+    }
 }

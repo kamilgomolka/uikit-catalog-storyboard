@@ -8,33 +8,33 @@
 import UIKit
 
 class CellSeparatorInsetsViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
-    
+
     // MARK: - Properties
-    
+
     @IBOutlet weak var tableView: UITableView!
-    
+
     // MARK: - Lifecycle
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         tableView.delegate = self
         tableView.dataSource = self
     }
-    
+
     // MARK: - UITableViewDataSource
-    
+
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return CellSeparatorInsetsItem.allCases.count
+        CellSeparatorInsetsItem.allCases.count
     }
-    
+
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cellType = CellSeparatorInsetsItem.allCases[indexPath.row]
         return tableView.dequeueReusableCell(withIdentifier: cellType.cellIdentifier, for: indexPath)
     }
-    
+
     // MARK: - UITableViewDelegate
-    
+
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
     }

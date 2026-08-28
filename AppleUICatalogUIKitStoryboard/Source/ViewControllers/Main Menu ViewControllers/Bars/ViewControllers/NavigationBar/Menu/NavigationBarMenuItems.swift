@@ -8,37 +8,37 @@
 import UIKit
 
 struct NavigationBarMenuItems {
-	
-	static var all: [MenuItem] {
-		return [
-			MenuItem(
-				name: "Small title",
-				storyboardName: "NavigationBarSmallTitle"
-			),
-			MenuItem(
-				name: "Large title",
-				storyboardName: "NavigationBarLargeTitle"
-			),
-			MenuItem(
-				name: "Grouped, Small title",
-				storyboardName: "NavigationBarGroupedSmallTitle"
-			),
-			MenuItem(
-				name: "Grouped, Large title",
-				storyboardName: "NavigationBarGroupedLargeTitle"
-			),
-			MenuItem(
-				name: "Custom titleView",
-				storyboardName: "NavigationBarCustomTitleView"
-			),
-			MenuItem(
-				name: "Buttons",
-				storyboardName: "NavigationBarButtons"
-			),
-			MenuItem(
-				name: "Prompt",
-				storyboardName: "NavigationBarPrompt"
-			)
-		]
-	}
+
+    static var all: [MenuItem] {
+        [
+            MenuItem(
+                name: "Small title",
+                storyboardName: "NavigationBarSmallTitle"
+            ),
+            MenuItem(
+                name: "Large title",
+                storyboardName: "NavigationBarLargeTitle"
+            ),
+            MenuItem(
+                name: "Grouped, Small title",
+                storyboardName: "NavigationBarGroupedSmallTitle"
+            ),
+            MenuItem(
+                name: "Grouped, Large title",
+                storyboardName: "NavigationBarGroupedLargeTitle"
+            ),
+            MenuItem(
+                name: "Custom titleView",
+                storyboardName: "NavigationBarCustomTitleView"
+            ),
+            MenuItem(
+                name: "Buttons",
+                storyboardName: "NavigationBarButtons"
+            ),
+            MenuItem(
+                name: "Prompt",
+                storyboardName: "NavigationBarPrompt"
+            ),
+        ]
+    }
 }

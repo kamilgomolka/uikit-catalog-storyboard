@@ -8,6 +8,6 @@
 import Foundation
 
 struct TransitionsMenuItem {
-	let name: String
-	let segueName: String
+    let name: String
+    let segueName: String
 }

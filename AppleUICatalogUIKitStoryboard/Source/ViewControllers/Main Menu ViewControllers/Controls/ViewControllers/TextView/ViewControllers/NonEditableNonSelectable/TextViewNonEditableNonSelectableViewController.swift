@@ -8,10 +8,10 @@
 import UIKit
 
 class TextViewNonEditableNonSelectableViewController: BaseViewController {
-    
+
     @IBOutlet weak var textView: UITextView!
-    
+
     override var scrollViewToAdjst: UIScrollView? {
-        return textView
+        textView
     }
 }

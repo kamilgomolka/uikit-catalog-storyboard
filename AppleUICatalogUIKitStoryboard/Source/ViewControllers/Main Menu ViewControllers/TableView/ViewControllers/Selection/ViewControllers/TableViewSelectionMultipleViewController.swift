@@ -8,14 +8,14 @@
 import UIKit
 
 class TableViewSelectionMultipleViewController: SimpleTableViewController {
-    
+
     @IBOutlet weak var tableViewOutlet: UITableView!
-    
+
     override var tableView: UITableView {
-        return tableViewOutlet
+        tableViewOutlet
     }
-    
+
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
+
     }
 }

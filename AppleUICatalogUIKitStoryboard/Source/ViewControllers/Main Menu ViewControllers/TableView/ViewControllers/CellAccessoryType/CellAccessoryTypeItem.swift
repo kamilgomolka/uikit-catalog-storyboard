@@ -12,8 +12,8 @@ enum CellAccessoryTypeItem: String, CaseIterable {
     case detailDisclorure
     case checkmark
     case detail
-    
+
     var cellIdentifier: String {
-        return self.rawValue
+        self.rawValue
     }
 }

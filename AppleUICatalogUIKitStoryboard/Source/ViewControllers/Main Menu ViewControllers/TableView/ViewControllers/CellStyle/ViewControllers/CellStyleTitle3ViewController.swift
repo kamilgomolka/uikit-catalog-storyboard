@@ -8,10 +8,10 @@
 import UIKit
 
 class CellStyleTitle3ViewController: CellStyleBaseViewController {
-    
+
     @IBOutlet weak var tableViewOutlet: UITableView!
-    
+
     override var tableView: UITableView {
-        return tableViewOutlet
+        tableViewOutlet
     }
 }

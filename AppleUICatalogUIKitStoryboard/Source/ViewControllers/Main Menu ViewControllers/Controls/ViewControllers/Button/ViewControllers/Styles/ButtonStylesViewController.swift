@@ -8,18 +8,18 @@
 import UIKit
 
 class ButtonStylesViewController: UIViewController {
-    
+
     // MARK: - Properties
-    
+
     @IBOutlet var buttons: [UIButton]!
-    
+
     let clicksCounter = ButtonClicksCounter()
-    
+
     // MARK: - Lifecycle
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         clicksCounter.setup(buttons: buttons)
     }
 }

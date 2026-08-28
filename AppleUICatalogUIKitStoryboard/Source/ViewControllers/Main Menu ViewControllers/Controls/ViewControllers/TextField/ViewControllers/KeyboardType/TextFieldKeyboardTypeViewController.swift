@@ -8,15 +8,15 @@
 import UIKit
 
 class TextFieldKeyboardTypeViewController: BaseTextFieldViewController {
-    
+
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var stackView: UIStackView!
-    
+
     override var scrollViewToAdjst: UIScrollView? {
-        return scrollView
+        scrollView
     }
-    
+
     override var mainStackView: UIStackView? {
-        return stackView
+        stackView
     }
 }

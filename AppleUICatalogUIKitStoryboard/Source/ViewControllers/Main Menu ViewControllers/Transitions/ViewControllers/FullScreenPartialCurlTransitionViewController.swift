@@ -17,14 +17,14 @@ import UIKit
 ///    (trantision stops in half and app is not responsive).
 ///
 class FullScreenPartialCurlTransitionViewController: UIViewController {
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         let closeButton = UIBarButtonItem(title: "Close", style: .done, target: self, action: #selector(close))
         navigationItem.rightBarButtonItem = closeButton
     }
-    
+
     @objc func close() {
         dismiss(animated: false, completion: nil)
     }

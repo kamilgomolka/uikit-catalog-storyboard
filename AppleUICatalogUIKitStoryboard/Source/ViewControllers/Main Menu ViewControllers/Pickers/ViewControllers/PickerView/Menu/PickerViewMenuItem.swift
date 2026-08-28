@@ -8,14 +8,14 @@
 import Foundation
 
 struct PickerViewMenuItem {
-	
-	static var all: [MenuItem] {
-		return [
-			MenuItem(
-				name: "ActivityIndicator",
-				storyboardName: "ActivityIndicator"
-			),
-			
-		]
-	}
+
+    static var all: [MenuItem] {
+        [
+            MenuItem(
+                name: "ActivityIndicator",
+                storyboardName: "ActivityIndicator"
+            )
+
+        ]
+    }
 }

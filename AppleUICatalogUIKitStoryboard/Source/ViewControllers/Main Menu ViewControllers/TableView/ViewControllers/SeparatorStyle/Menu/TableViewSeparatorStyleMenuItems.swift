@@ -8,19 +8,19 @@
 import Foundation
 
 struct TableViewSeparatorStyleMenuItems {
-	
-	static var all: [MenuItem] {
-		return [
-			MenuItem(
-				name: "None",
-				storyboardName: "TableView",
-				viewControllerIdentifier: "TableViewSeparatorStyleNoneViewController"
-			),
-			MenuItem(
-				name: "Single line",
-				storyboardName: "TableView",
-				viewControllerIdentifier: "TableViewSeparatorStyleLineViewController"
-			)
-		]
-	}
+
+    static var all: [MenuItem] {
+        [
+            MenuItem(
+                name: "None",
+                storyboardName: "TableView",
+                viewControllerIdentifier: "TableViewSeparatorStyleNoneViewController"
+            ),
+            MenuItem(
+                name: "Single line",
+                storyboardName: "TableView",
+                viewControllerIdentifier: "TableViewSeparatorStyleLineViewController"
+            ),
+        ]
+    }
 }

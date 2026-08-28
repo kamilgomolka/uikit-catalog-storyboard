@@ -12,7 +12,7 @@ enum CellStyleSection: String, CaseIterable {
     case rightDetail
     case leftDetail
     case subtitle
-    
+
     var sectionTitle: String {
         switch self {
         case .basic:
@@ -20,13 +20,13 @@ enum CellStyleSection: String, CaseIterable {
         case .rightDetail:
             return "Right detail (Value1)"
         case .leftDetail:
-            return "Left detail (Value2)"        
+            return "Left detail (Value2)"
         case .subtitle:
             return "Subtitle"
         }
     }
-    
+
     var cellIdentifier: String {
-        return self.rawValue
+        self.rawValue
     }
 }

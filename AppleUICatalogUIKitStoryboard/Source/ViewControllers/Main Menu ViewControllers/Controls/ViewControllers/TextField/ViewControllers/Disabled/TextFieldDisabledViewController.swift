@@ -8,10 +8,10 @@
 import UIKit
 
 class TextFieldDisabledViewController: BaseViewController {
-    
+
     @IBOutlet weak var scrollView: UIScrollView!
-    
+
     override var scrollViewToAdjst: UIScrollView? {
-        return scrollView
+        scrollView
     }
 }

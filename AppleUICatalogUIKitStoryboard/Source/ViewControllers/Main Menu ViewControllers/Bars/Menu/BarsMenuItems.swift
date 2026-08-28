@@ -8,21 +8,21 @@
 import Foundation
 
 struct BarsMenuItems {
-	
-	static var all: [MenuItem] {
-		return [
-			MenuItem(
-				name: "NavigationBar",
-				storyboardName: "NavigationBarMenu"
-			),
-			MenuItem(
-				name: "Tabbar",
-				storyboardName: "TabbarMenu"
-			),
-			MenuItem(
-				name: "Toolbar",
-				storyboardName: "ToolbarMenu"
-			)
-		]
-	}
+
+    static var all: [MenuItem] {
+        [
+            MenuItem(
+                name: "NavigationBar",
+                storyboardName: "NavigationBarMenu"
+            ),
+            MenuItem(
+                name: "Tabbar",
+                storyboardName: "TabbarMenu"
+            ),
+            MenuItem(
+                name: "Toolbar",
+                storyboardName: "ToolbarMenu"
+            ),
+        ]
+    }
 }
