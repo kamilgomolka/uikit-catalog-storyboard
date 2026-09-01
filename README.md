@@ -6,7 +6,7 @@
 [![Xcode](https://img.shields.io/badge/Xcode-26-1575F9.svg)](https://developer.apple.com/xcode/)
 [![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)](LICENSE)
 
-UIKit reference app, views are declated in Storyboard/Xib files. Each view is laid out in Interface Builder, and - if needed - accessed from a Swift code. No third-party libraries, no `UIControl` subclasses, no kitchen-sink extensions.
+UIKit reference app, views are declated in Storyboard/Xib files. Each view is laid out in Interface Builder, and - if needed - accessed from a Swift code. No third-party libraries, no in-house custom widgets.
 
 iPhone (portrait) and iPad (all orientations). Light and Dark Mode follow the system appearance.
 
