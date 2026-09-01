@@ -1,0 +1,28 @@
+//
+//  BarsMenuItems.swift
+//  UIKitCatalogStoryboard
+//
+//  Created by Kamil Gomółka on 20/04/2022.
+//
+
+import Foundation
+
+struct BarsMenuItems {
+
+    static var all: [MenuItem] {
+        [
+            MenuItem(
+                name: "NavigationBar",
+                storyboardName: "NavigationBarMenu"
+            ),
+            MenuItem(
+                name: "Tabbar",
+                storyboardName: "TabbarMenu"
+            ),
+            MenuItem(
+                name: "Toolbar",
+                storyboardName: "ToolbarMenu"
+            ),
+        ]
+    }
+}

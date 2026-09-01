@@ -1,12 +1,12 @@
-# Apple UI Catalog — UIKit (Storyboard)
+# UIKit Catalog - Storyboard (Views created in IB)
 
-[![CI](https://github.com/kamilgomolka/apple-ui-catalog-uikit-storyboard/actions/workflows/ci.yml/badge.svg)](https://github.com/kamilgomolka/apple-ui-catalog-uikit-storyboard/actions/workflows/ci.yml)
+[![CI](https://github.com/kamilgomolka/uikit-catalog-storyboard/actions/workflows/ci.yml/badge.svg)](https://github.com/kamilgomolka/uikit-catalog-storyboard/actions/workflows/ci.yml)
 [![Swift](https://img.shields.io/badge/Swift-6.0-F05138.svg)](https://swift.org)
 [![Platform](https://img.shields.io/badge/iOS-26.0%2B-000000.svg)](https://developer.apple.com/ios/)
 [![Xcode](https://img.shields.io/badge/Xcode-26-1575F9.svg)](https://developer.apple.com/xcode/)
 [![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)](LICENSE)
 
-UIKit reference app, built with Storyboard/Xib files. Each view is laid out in Interface Builder, and - if needed - accessed from Swift code. No third-party libraries, no `UIControl` subclasses, no kitchen-sink extensions.
+UIKit reference app, views are declated in Storyboard/Xib files. Each view is laid out in Interface Builder, and - if needed - accessed from a Swift code. No third-party libraries, no `UIControl` subclasses, no kitchen-sink extensions.
 
 iPhone (portrait) and iPad (all orientations). Light and Dark Mode follow the system appearance.
 
@@ -33,9 +33,9 @@ Navigation is data, not a coordinator: `MenuItem` loads a Storyboard by name (an
 ```
 Config/
 ├── Local.xcconfig.example                       # Template for the untracked Local.xcconfig (Team ID)
-└── AppleUICatalogUIKitStoryboard.xcconfig       # Platform, Swift, signing, versioning, Info.plist keys
+└── UIKitCatalogStoryboard.xcconfig              # Platform, Swift, signing, versioning, Info.plist keys
 
-AppleUICatalogUIKitStoryboard/
+UIKitCatalogStoryboard/
 ├── Source/
 │   ├── Application/
 │   │   ├── AppDelegate.swift
@@ -63,12 +63,12 @@ Xcode's own default warning flags still live in `project.pbxproj`; everything th
 ## Getting Started
 
 ```bash
-git clone https://github.com/kamilgomolka/apple-ui-catalog-uikit-storyboard.git
-cd apple-ui-catalog-uikit-storyboard
-open AppleUICatalogUIKitStoryboard.xcodeproj
+git clone https://github.com/kamilgomolka/uikit-catalog-storyboard.git
+cd uikit-catalog-storyboard
+open UIKitCatalogStoryboard.xcodeproj
 ```
 
-Build and run the `AppleUICatalogUIKitStoryboard` scheme on an iOS 26+ Simulator. Signing is not required for the Simulator. To run on a device, copy the local configuration template and fill in your Apple Developer Team ID:
+Build and run the `UIKitCatalogStoryboard` scheme on an iOS 26+ Simulator. Signing is not required for the Simulator. To run on a device, copy the local configuration template and fill in your Apple Developer Team ID:
 
 ```bash
 cp Config/Local.xcconfig.example Config/Local.xcconfig
